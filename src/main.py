@@ -22,23 +22,16 @@ _ = Writer.getWho()
 
 ################################################################
 #
-# Sample step:
-# 1) Create the world
-#       世界を作成する。
-# 2) Create a new chapter
-#       章の作成。
-# 3) Create a episode
-#       エピソード作成。
-# 4) Create a new scene
-#       シーン作成。物語のベース。ここに様々なActionを追加する。
-# 5) Create a new stage
-#       舞台作成。シーンに必須要素
-# 6) Create a new day and time
-#       日時作成。シーンのサブ要素
-# 7) Add a scene plot
-#       シーンプロットの作成。概要のないシーンは原則使えない
-# 8) Add scene actions
-#       シーンアクションの追加。
+#   ４月　『神様の悪戯という名の雨　changed Heart』
+#   ７月　『時々２杯分入る自販機　warm Liver』
+#   ８月　『好きから始めると必ず好きになる花　Stomachache』
+#   ９月　『お弁当を持っていかないと雨が降る公園　pang Duodenum』
+#   １０月『窓際で人を待つと遅刻しない喫茶店　fried Kidney』
+#   １１月『手を繋いで入ると嬉しいことがある水族館　tangle Intestine』
+#   １２月『遅刻したら別れる遊園地　abnormal Marrow』
+#   １月　『真夜中に見てはいけない鏡　squeezed Lunges』
+#   ２月　『赤い糸　gazing at Eyes』
+#   ３月　『運命の人症候群　illusion of Brain』
 #
 ################################################################
 
@@ -47,7 +40,7 @@ _ = Writer.getWho()
 def create_world():
     """Create a world.
     """
-    w = World("title")
+    w = World("運命の人症候群")
     w.setCommonData()
     w.setAssets(basic.ASSET)
     w.setAssets(accessory.ASSET)
@@ -60,7 +53,7 @@ def create_world():
     # w.entryBlock()
     # w.entryHistory()
     # w.entryLifeNote()
-    w.setOutline("__outline__")
+    w.setOutline("心臓移植を受けた真穂は移植後、運命を感じる男性と出会った。その医者の彼と、新しい恋が始まる。けれどその恋は運命の悪戯を彼女に仕掛けるのだった")
     return w
 
 
