@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Chapter: story 1
+"""Chapter 7: 十二月「遅刻したら別れる遊園地」
 """
 ## path
 import os
@@ -32,7 +32,7 @@ def ep_tmp(w: World):
             )
 
 ## chapter
-def ch_tmp(w: World):
-    return w.chapter("Ch: xxx",
+def ch_goodbye(w: World):
+    return w.chapter("７．十二月「遅刻したら別れる遊園地」",
             ep_tmp(w),
             )

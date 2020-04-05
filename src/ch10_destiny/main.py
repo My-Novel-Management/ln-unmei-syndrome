@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Chapter: story 1
+"""Chapter 10: 三月「運命の人症候群」
 """
 ## path
 import os
@@ -32,7 +32,7 @@ def ep_tmp(w: World):
             )
 
 ## chapter
-def ch_tmp(w: World):
-    return w.chapter("Ch: xxx",
+def ch_destiny(w: World):
+    return w.chapter("１０．三月「運命の人症候群」",
             ep_tmp(w),
             )

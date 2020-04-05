@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Chapter: story 1
+"""Chapter 9: 二月「赤い糸」
 """
 ## path
 import os
@@ -32,7 +32,7 @@ def ep_tmp(w: World):
             )
 
 ## chapter
-def ch_tmp(w: World):
-    return w.chapter("Ch: xxx",
+def ch_redthread(w: World):
+    return w.chapter("９．二月「赤い糸」",
             ep_tmp(w),
             )
