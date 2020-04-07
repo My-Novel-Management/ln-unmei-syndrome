@@ -17,22 +17,23 @@ W = Writer
 _ = W.getWho()
 
 ## scenes
-def sc_tmp(w: World):
-    return w.scene("Sc: xxx",
-            camera=w.taro,
+def sc_herreport(w: World):
+    maho, nao = W(w.maho), W(w.nao)
+    return w.scene("$full_mahoについてのレポート",
+            camera=w.nao,
             area=w.Tokyo,
             stage=w.on_street,
             day=w.in_current, time=w.at_afternoon,
             )
 
 ## episode
-def ep_tmp(w: World):
-    return w.episode("Ep: xxx",
-            sc_tmp(w),
+def ep_report(w: World):
+    return w.episode("10-1．今回のレポートについて",
+            sc_herreport(w),
             )
 
 ## chapter
 def ch_destiny(w: World):
     return w.chapter("１０．三月「運命の人症候群」",
-            ep_tmp(w),
+            ep_report(w),
             note="西野なおは全てのことの顛末をレポートにまとめていた。心臓移植をしたことで姉の記憶や嗜好を受け継いだ。姉の日記を読み返す")
