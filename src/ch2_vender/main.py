@@ -35,4 +35,4 @@ def ep_tmp(w: World):
 def ch_vender(w: World):
     return w.chapter("２．七月「時々二杯分入る自販機」",
             ep_tmp(w),
-            )
+            note="先生にもう一度会いたいと言われた")

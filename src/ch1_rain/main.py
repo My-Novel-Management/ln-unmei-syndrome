@@ -35,4 +35,4 @@ def ep_tmp(w: World):
 def ch_rain(w: World):
     return w.chapter("１．四月「神様の悪戯という名の雨」",
             ep_tmp(w),
-            )
+            note="心臓移植を受ける真穂")

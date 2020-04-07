@@ -35,4 +35,4 @@ def ep_tmp(w: World):
 def ch_destiny(w: World):
     return w.chapter("１０．三月「運命の人症候群」",
             ep_tmp(w),
-            )
+            note="西野なおは全てのことの顛末をレポートにまとめていた。心臓移植をしたことで姉の記憶や嗜好を受け継いだ。姉の日記を読み返す")

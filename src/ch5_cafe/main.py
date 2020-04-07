@@ -35,4 +35,4 @@ def ep_tmp(w: World):
 def ch_waitingcafe(w: World):
     return w.chapter("５．十月「窓際で人を待つと遅刻しない喫茶店」",
             ep_tmp(w),
-            )
+            note="知らない女性から「姉の美津希のことが好きだったの」と告白される")

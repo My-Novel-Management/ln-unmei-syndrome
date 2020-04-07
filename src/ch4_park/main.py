@@ -35,4 +35,4 @@ def ep_tmp(w: World):
 def ch_rainpark(w: World):
     return w.chapter("４．九月「お弁当を持って行かないと雨が降る公園」",
             ep_tmp(w),
-            )
+            note="先生から「好きだよ」と告白された")

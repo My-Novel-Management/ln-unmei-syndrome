@@ -35,4 +35,4 @@ def ep_tmp(w: World):
 def ch_blueflower(w: World):
     return w.chapter("３．八月「好きから始めると必ず好きになる花」",
             ep_tmp(w),
-            )
+            note="今度の日曜にデートする約束をした")

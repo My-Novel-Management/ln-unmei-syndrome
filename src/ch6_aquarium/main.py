@@ -35,4 +35,4 @@ def ep_tmp(w: World):
 def ch_aquarium(w: World):
     return w.chapter("６．十一月「手を繋いで入ると嬉しいことがある水族館」",
             ep_tmp(w),
-            )
+            note="やっとデートにこぎつけた。しかし彼は彼女を違う名前で呼んだ")

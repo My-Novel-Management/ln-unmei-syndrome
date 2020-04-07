@@ -35,4 +35,4 @@ def ep_tmp(w: World):
 def ch_goodbye(w: World):
     return w.chapter("７．十二月「遅刻したら別れる遊園地」",
             ep_tmp(w),
-            )
+            note="")

@@ -35,4 +35,4 @@ def ep_tmp(w: World):
 def ch_redthread(w: World):
     return w.chapter("９．二月「赤い糸」",
             ep_tmp(w),
-            )
+            note="完全に姉にのっとられ、彼との同棲生活が始まる。でも鏡の中で、別の自分が笑っていた。一つの体と、二つの意識。それが互いを奪い合う。そしてナイフを取り出した")

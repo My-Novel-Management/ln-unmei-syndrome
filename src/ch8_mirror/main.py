@@ -35,4 +35,4 @@ def ep_tmp(w: World):
 def ch_mirror(w: World):
     return w.chapter("８．一月「真夜中に見てはいけない鏡」",
             ep_tmp(w),
-            )
+            note="中身の彼女が入れ替わる")
